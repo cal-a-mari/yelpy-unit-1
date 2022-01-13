@@ -24,7 +24,6 @@ class RestaurantTableViewCell: UITableViewCell {
     ratingLabel.text = "Rating: \(String(restaurant.rating))"
     phoneNumberLabel.text = restaurant.phoneNumber
     restaurantImageView.af.setImage(withURL: URL(string: restaurant.imageURL)!)
-    print(restaurant.imageURL)
   }
   
   override func prepareForReuse() {
