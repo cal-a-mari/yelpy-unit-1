@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085A7E8AF4D98B55EDE209C0 /* Pods_YelpyMariTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68606E1BCF8053338871C64 /* Pods_YelpyMariTests.framework */; };
+		5059DFD44DB0A2C9324676C1 /* Pods_YelpyMari_YelpyMariUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A48265ABEE559C9836B22D /* Pods_YelpyMari_YelpyMariUITests.framework */; };
+		99DA8F7A278F92940042681B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8F79278F92940042681B /* AppDelegate.swift */; };
+		99DA8F7C278F92940042681B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8F7B278F92940042681B /* SceneDelegate.swift */; };
+		99DA8F7E278F92940042681B /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8F7D278F92940042681B /* RestaurantsViewController.swift */; };
+		99DA8F81278F92940042681B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8F7F278F92940042681B /* Main.storyboard */; };
+		99DA8F83278F92960042681B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8F82278F92960042681B /* Assets.xcassets */; };
+		99DA8F86278F92960042681B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8F84278F92960042681B /* LaunchScreen.storyboard */; };
+		99DA8F91278F92960042681B /* YelpyMariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8F90278F92960042681B /* YelpyMariTests.swift */; };
+		99DA8F9B278F92960042681B /* YelpyMariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8F9A278F92960042681B /* YelpyMariUITests.swift */; };
+		99DA8F9D278F92960042681B /* YelpyMariUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8F9C278F92960042681B /* YelpyMariUITestsLaunchTests.swift */; };
+		99DA8FAC278F9B320042681B /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8FAB278F9B320042681B /* RestaurantTableViewCell.swift */; };
+		99DA8FAE278FC4BE0042681B /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8FAD278FC4BE0042681B /* Restaurant.swift */; };
+		99DA8FB0278FC6930042681B /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DA8FAF278FC6930042681B /* RestaurantService.swift */; };
+		ABD0125E1863CCC0A6D90C22 /* Pods_YelpyMari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837718A49FE36653167CFD36 /* Pods_YelpyMari.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99DA8F8D278F92960042681B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DA8F6E278F92940042681B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99DA8F75278F92940042681B;
+			remoteInfo = YelpyMari;
+		};
+		99DA8F97278F92960042681B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99DA8F6E278F92940042681B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99DA8F75278F92940042681B;
+			remoteInfo = YelpyMari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A48265ABEE559C9836B22D /* Pods_YelpyMari_YelpyMariUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelpyMari_YelpyMariUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C107417F2B49646D8797B25 /* Pods-YelpyMariTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpyMariTests.release.xcconfig"; path = "Target Support Files/Pods-YelpyMariTests/Pods-YelpyMariTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C14709C76E9B60CA30EF566 /* Pods-YelpyMari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpyMari.debug.xcconfig"; path = "Target Support Files/Pods-YelpyMari/Pods-YelpyMari.debug.xcconfig"; sourceTree = "<group>"; };
+		837718A49FE36653167CFD36 /* Pods_YelpyMari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelpyMari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983C9E65B7848C253A0BA2D2 /* Pods-YelpyMariTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpyMariTests.debug.xcconfig"; path = "Target Support Files/Pods-YelpyMariTests/Pods-YelpyMariTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9971E3B75D9645719114AE8C /* Pods-YelpyMari-YelpyMariUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpyMari-YelpyMariUITests.debug.xcconfig"; path = "Target Support Files/Pods-YelpyMari-YelpyMariUITests/Pods-YelpyMari-YelpyMariUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99DA8F76278F92940042681B /* YelpyMari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelpyMari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DA8F79278F92940042681B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99DA8F7B278F92940042681B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99DA8F7D278F92940042681B /* RestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		99DA8F80278F92940042681B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99DA8F82278F92960042681B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99DA8F85278F92960042681B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99DA8F87278F92960042681B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DA8F8C278F92960042681B /* YelpyMariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpyMariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DA8F90278F92960042681B /* YelpyMariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpyMariTests.swift; sourceTree = "<group>"; };
+		99DA8F96278F92960042681B /* YelpyMariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpyMariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DA8F9A278F92960042681B /* YelpyMariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpyMariUITests.swift; sourceTree = "<group>"; };
+		99DA8F9C278F92960042681B /* YelpyMariUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpyMariUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99DA8FAB278F9B320042681B /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		99DA8FAD278FC4BE0042681B /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		99DA8FAF278FC6930042681B /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		C68606E1BCF8053338871C64 /* Pods_YelpyMariTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YelpyMariTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DD937729BEE81B97BA7A38 /* Pods-YelpyMari-YelpyMariUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpyMari-YelpyMariUITests.release.xcconfig"; path = "Target Support Files/Pods-YelpyMari-YelpyMariUITests/Pods-YelpyMari-YelpyMariUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC2493444DB1E64C74BE0775 /* Pods-YelpyMari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpyMari.release.xcconfig"; path = "Target Support Files/Pods-YelpyMari/Pods-YelpyMari.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99DA8F73278F92940042681B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD0125E1863CCC0A6D90C22 /* Pods_YelpyMari.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DA8F89278F92960042681B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085A7E8AF4D98B55EDE209C0 /* Pods_YelpyMariTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DA8F93278F92960042681B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5059DFD44DB0A2C9324676C1 /* Pods_YelpyMari_YelpyMariUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04535F1335AE1242944C0B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C14709C76E9B60CA30EF566 /* Pods-YelpyMari.debug.xcconfig */,
+				FC2493444DB1E64C74BE0775 /* Pods-YelpyMari.release.xcconfig */,
+				9971E3B75D9645719114AE8C /* Pods-YelpyMari-YelpyMariUITests.debug.xcconfig */,
+				E8DD937729BEE81B97BA7A38 /* Pods-YelpyMari-YelpyMariUITests.release.xcconfig */,
+				983C9E65B7848C253A0BA2D2 /* Pods-YelpyMariTests.debug.xcconfig */,
+				2C107417F2B49646D8797B25 /* Pods-YelpyMariTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99DA8F6D278F92940042681B = {
+			isa = PBXGroup;
+			children = (
+				99DA8F78278F92940042681B /* YelpyMari */,
+				99DA8F8F278F92960042681B /* YelpyMariTests */,
+				99DA8F99278F92960042681B /* YelpyMariUITests */,
+				99DA8F77278F92940042681B /* Products */,
+				04535F1335AE1242944C0B2E /* Pods */,
+				B1418A4145FEF82DF94FFDB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99DA8F77278F92940042681B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99DA8F76278F92940042681B /* YelpyMari.app */,
+				99DA8F8C278F92960042681B /* YelpyMariTests.xctest */,
+				99DA8F96278F92960042681B /* YelpyMariUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99DA8F78278F92940042681B /* YelpyMari */ = {
+			isa = PBXGroup;
+			children = (
+				99DA8F79278F92940042681B /* AppDelegate.swift */,
+				99DA8F7B278F92940042681B /* SceneDelegate.swift */,
+				99DA8F7D278F92940042681B /* RestaurantsViewController.swift */,
+				99DA8FAB278F9B320042681B /* RestaurantTableViewCell.swift */,
+				99DA8FAF278FC6930042681B /* RestaurantService.swift */,
+				99DA8FAD278FC4BE0042681B /* Restaurant.swift */,
+				99DA8F7F278F92940042681B /* Main.storyboard */,
+				99DA8F82278F92960042681B /* Assets.xcassets */,
+				99DA8F84278F92960042681B /* LaunchScreen.storyboard */,
+				99DA8F87278F92960042681B /* Info.plist */,
+			);
+			path = YelpyMari;
+			sourceTree = "<group>";
+		};
+		99DA8F8F278F92960042681B /* YelpyMariTests */ = {
+			isa = PBXGroup;
+			children = (
+				99DA8F90278F92960042681B /* YelpyMariTests.swift */,
+			);
+			path = YelpyMariTests;
+			sourceTree = "<group>";
+		};
+		99DA8F99278F92960042681B /* YelpyMariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99DA8F9A278F92960042681B /* YelpyMariUITests.swift */,
+				99DA8F9C278F92960042681B /* YelpyMariUITestsLaunchTests.swift */,
+			);
+			path = YelpyMariUITests;
+			sourceTree = "<group>";
+		};
+		B1418A4145FEF82DF94FFDB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837718A49FE36653167CFD36 /* Pods_YelpyMari.framework */,
+				05A48265ABEE559C9836B22D /* Pods_YelpyMari_YelpyMariUITests.framework */,
+				C68606E1BCF8053338871C64 /* Pods_YelpyMariTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99DA8F75278F92940042681B /* YelpyMari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DA8FA0278F92960042681B /* Build configuration list for PBXNativeTarget "YelpyMari" */;
+			buildPhases = (
+				048EC54F67546C6E0C2B3B8F /* [CP] Check Pods Manifest.lock */,
+				99DA8F72278F92940042681B /* Sources */,
+				99DA8F73278F92940042681B /* Frameworks */,
+				99DA8F74278F92940042681B /* Resources */,
+				38CE822C01E11B9F8A3EFDFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YelpyMari;
+			productName = YelpyMari;
+			productReference = 99DA8F76278F92940042681B /* YelpyMari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99DA8F8B278F92960042681B /* YelpyMariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DA8FA3278F92960042681B /* Build configuration list for PBXNativeTarget "YelpyMariTests" */;
+			buildPhases = (
+				0C2F2A72B0149953E9169C85 /* [CP] Check Pods Manifest.lock */,
+				99DA8F88278F92960042681B /* Sources */,
+				99DA8F89278F92960042681B /* Frameworks */,
+				99DA8F8A278F92960042681B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DA8F8E278F92960042681B /* PBXTargetDependency */,
+			);
+			name = YelpyMariTests;
+			productName = YelpyMariTests;
+			productReference = 99DA8F8C278F92960042681B /* YelpyMariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99DA8F95278F92960042681B /* YelpyMariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99DA8FA6278F92960042681B /* Build configuration list for PBXNativeTarget "YelpyMariUITests" */;
+			buildPhases = (
+				A5E7491B712963E1AB4B44B0 /* [CP] Check Pods Manifest.lock */,
+				99DA8F92278F92960042681B /* Sources */,
+				99DA8F93278F92960042681B /* Frameworks */,
+				99DA8F94278F92960042681B /* Resources */,
+				6EDD16A2D918C403EB3CEB38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99DA8F98278F92960042681B /* PBXTargetDependency */,
+			);
+			name = YelpyMariUITests;
+			productName = YelpyMariUITests;
+			productReference = 99DA8F96278F92960042681B /* YelpyMariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99DA8F6E278F92940042681B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					99DA8F75278F92940042681B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					99DA8F8B278F92960042681B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 99DA8F75278F92940042681B;
+					};
+					99DA8F95278F92960042681B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 99DA8F75278F92940042681B;
+					};
+				};
+			};
+			buildConfigurationList = 99DA8F71278F92940042681B /* Build configuration list for PBXProject "YelpyMari" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99DA8F6D278F92940042681B;
+			productRefGroup = 99DA8F77278F92940042681B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99DA8F75278F92940042681B /* YelpyMari */,
+				99DA8F8B278F92960042681B /* YelpyMariTests */,
+				99DA8F95278F92960042681B /* YelpyMariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99DA8F74278F92940042681B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DA8F86278F92960042681B /* LaunchScreen.storyboard in Resources */,
+				99DA8F83278F92960042681B /* Assets.xcassets in Resources */,
+				99DA8F81278F92940042681B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DA8F8A278F92960042681B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DA8F94278F92960042681B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048EC54F67546C6E0C2B3B8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YelpyMari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C2F2A72B0149953E9169C85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YelpyMariTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38CE822C01E11B9F8A3EFDFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelpyMari/Pods-YelpyMari-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelpyMari/Pods-YelpyMari-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YelpyMari/Pods-YelpyMari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EDD16A2D918C403EB3CEB38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelpyMari-YelpyMariUITests/Pods-YelpyMari-YelpyMariUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YelpyMari-YelpyMariUITests/Pods-YelpyMari-YelpyMariUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YelpyMari-YelpyMariUITests/Pods-YelpyMari-YelpyMariUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E7491B712963E1AB4B44B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YelpyMari-YelpyMariUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99DA8F72278F92940042681B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DA8FAE278FC4BE0042681B /* Restaurant.swift in Sources */,
+				99DA8FAC278F9B320042681B /* RestaurantTableViewCell.swift in Sources */,
+				99DA8F7E278F92940042681B /* RestaurantsViewController.swift in Sources */,
+				99DA8F7A278F92940042681B /* AppDelegate.swift in Sources */,
+				99DA8FB0278FC6930042681B /* RestaurantService.swift in Sources */,
+				99DA8F7C278F92940042681B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DA8F88278F92960042681B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DA8F91278F92960042681B /* YelpyMariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99DA8F92278F92960042681B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DA8F9B278F92960042681B /* YelpyMariUITests.swift in Sources */,
+				99DA8F9D278F92960042681B /* YelpyMariUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99DA8F8E278F92960042681B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99DA8F75278F92940042681B /* YelpyMari */;
+			targetProxy = 99DA8F8D278F92960042681B /* PBXContainerItemProxy */;
+		};
+		99DA8F98278F92960042681B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99DA8F75278F92940042681B /* YelpyMari */;
+			targetProxy = 99DA8F97278F92960042681B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99DA8F7F278F92940042681B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DA8F80278F92940042681B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99DA8F84278F92960042681B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99DA8F85278F92960042681B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99DA8F9E278F92960042681B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99DA8F9F278F92960042681B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99DA8FA1278F92960042681B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C14709C76E9B60CA30EF566 /* Pods-YelpyMari.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YelpyMari/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MariBatilando.YelpyMari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99DA8FA2278F92960042681B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2493444DB1E64C74BE0775 /* Pods-YelpyMari.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YelpyMari/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MariBatilando.YelpyMari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99DA8FA4278F92960042681B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983C9E65B7848C253A0BA2D2 /* Pods-YelpyMariTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MariBatilando.YelpyMariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YelpyMari.app/YelpyMari";
+			};
+			name = Debug;
+		};
+		99DA8FA5278F92960042681B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C107417F2B49646D8797B25 /* Pods-YelpyMariTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MariBatilando.YelpyMariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YelpyMari.app/YelpyMari";
+			};
+			name = Release;
+		};
+		99DA8FA7278F92960042681B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9971E3B75D9645719114AE8C /* Pods-YelpyMari-YelpyMariUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MariBatilando.YelpyMariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YelpyMari;
+			};
+			name = Debug;
+		};
+		99DA8FA8278F92960042681B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DD937729BEE81B97BA7A38 /* Pods-YelpyMari-YelpyMariUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MariBatilando.YelpyMariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YelpyMari;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99DA8F71278F92940042681B /* Build configuration list for PBXProject "YelpyMari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DA8F9E278F92960042681B /* Debug */,
+				99DA8F9F278F92960042681B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DA8FA0278F92960042681B /* Build configuration list for PBXNativeTarget "YelpyMari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DA8FA1278F92960042681B /* Debug */,
+				99DA8FA2278F92960042681B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DA8FA3278F92960042681B /* Build configuration list for PBXNativeTarget "YelpyMariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DA8FA4278F92960042681B /* Debug */,
+				99DA8FA5278F92960042681B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99DA8FA6278F92960042681B /* Build configuration list for PBXNativeTarget "YelpyMariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DA8FA7278F92960042681B /* Debug */,
+				99DA8FA8278F92960042681B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99DA8F6E278F92940042681B /* Project object */;
+}

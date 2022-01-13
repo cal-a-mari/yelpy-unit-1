@@ -1,0 +1,6 @@
+framework module Pods_YelpyMari_YelpyMariUITests {
+  umbrella header "Pods-YelpyMari-YelpyMariUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
