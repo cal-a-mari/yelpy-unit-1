@@ -29,6 +29,10 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
     return restaurants.count
   }
   
+  func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    return 100.0
+  }
+  
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     guard let cell = tableView.dequeueReusableCell(withIdentifier: RestaurantTableViewCell.cellIdentifier) as? RestaurantTableViewCell else {
       return UITableViewCell()
