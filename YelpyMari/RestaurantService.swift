@@ -15,7 +15,7 @@ class RestaurantService {
     // Coordinates for San Francisco
     let lat = 37.773972
     let long = -122.431297
-    let url = URL(string: "https://api.yelp.com/v3/transactions/delivery/search?latitude=\(lat)&longitude=\(long)")!
+    let url = URL(string: "https://api.yelp.com/v3/businesses/search?latitude=\(lat)&longitude=\(long)")!
     var request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
     // Insert API Key to request
     request.setValue("Bearer \(apikey)", forHTTPHeaderField: "Authorization")
